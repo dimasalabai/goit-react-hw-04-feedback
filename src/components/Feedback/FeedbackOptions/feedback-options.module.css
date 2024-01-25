@@ -1,0 +1,35 @@
+.btn {
+  padding: 5px 10px;
+  display: inline-block;
+  border-radius: 10px;
+  border: 1px solid #1a2316;
+  text-transform: capitalize;
+}
+
+.btn:not(:last-child) {
+  margin-right: 10px;
+}
+
+.btn:nth-child(2) {
+  background-color: #4ac550;
+}
+.btn:nth-child(2):hover {
+  background-color: #388d3c;
+  color: #cbcbcb;
+}
+
+.btn:nth-child(3) {
+  background-color: #687068;
+}
+.btn:nth-child(3):hover {
+  background-color: #3e423e;
+  color: #b1b1b1;
+}
+
+.btn:nth-child(4) {
+  background-color: #c54a4a;
+}
+.btn:nth-child(4):hover {
+  background-color: #8e3939;
+  color: #b1b1b1;
+}

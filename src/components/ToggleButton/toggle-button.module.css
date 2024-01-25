@@ -1,0 +1,15 @@
+.btn {
+  margin: 20px auto;
+  background-color: #4ff162;
+  color: darkblue;
+  padding: 10px 15px;
+  border: 2px solid #095913;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.btn.active {
+  background-color: darkblue;
+  border: 2px solid #4ff162;
+  color: #4ff162;
+}
